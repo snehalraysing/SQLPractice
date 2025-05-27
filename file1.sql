@@ -41,3 +41,6 @@ select first_name, length(first_name) from people;
 
 -- distinct 
 select distinct(first_name) from people;
+select distinct(shirt_or_hat) from people ;
+
+select count(*) from people where state='NY';
